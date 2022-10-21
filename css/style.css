@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/*Обнулення (reset)*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+/*Стилізація*/
+[class*="container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.article__container {
+	max-width: 814px;
+	margin: 0 auto;
+}	
+.article{
+	font-family: 'Lato';
+	color: #424551;
+	margin-bottom: 60px;
+}
+.article__title {
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+color: #1E212C;
+margin-bottom: 35px;
+}
+.article__image {
+	margin-bottom: 65px;
+}
+.article__image img{
+max-width: 100%;
+}
+.article__desc {
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 24px;
+}
+
+.article__text {
+font-size: 16px;
+line-height: 160%;
+margin-bottom: 48px;
+}
+
+.article__text :nth-child(1) {
+	margin-bottom: 24px;
+	}
+
+.article__quote {
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+padding-left: 58px;
+margin-bottom: 48px;
+background: url('../img/icon/braces.jpg') no-repeat;
+}
+.article__text ul li{
+	padding-left: 31.48px;
+	background: url('../img/icon/check.jpg') 0 5px no-repeat;
+}
+.article__text li:not(:last-child){
+	margin-bottom: 4px;
+}
+.article__text ul{
+	margin-bottom: 24px;
+}
+.article__text--margin{
+margin-bottom: 0px;
+	}
